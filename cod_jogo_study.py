@@ -9,6 +9,9 @@ while True:
     if(numero == numero_secreto):
         print(f'Parabens você acertou o numero em {tentativas}')
         break
+    elif (tentativas==5):
+        print("gamer over")
+        break
 
     elif(numero_secreto>numero):
         print(f'O numero secreto é maior !! - {tentativas} tentativas')
